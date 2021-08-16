@@ -1,0 +1,516 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+}
+
+.top{
+background-color: #000000;
+height: 30px;
+width: 100%;
+}
+.top ul{      
+    margin-left: 1000px;
+    
+}
+.top li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.top a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bg
+{
+    background-color: #edf8fe;
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.navbar-brand
+{
+margin-left: 17%;
+}
+.navbar
+{
+position: absolute;
+background-color: #edf8fe!important;
+width: 100%;
+z-index: 10;
+}
+.navbar-nav
+{
+margin-left: 50%;
+}
+
+.navbar-nav a {
+    color: #05546d!important;
+}
+.navbar-nav a:hover {
+    color: #0A313C!important;
+}
+
+
+.hr-line
+{
+  position: absolute;
+  z-index: 999;
+
+  width: 100%;
+  top: 80px;
+}
+.hr-line hr{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+  border: 0;
+  height: 3px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc)
+  
+}
+
+
+.carousel-control-prev 
+{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 600%);
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: -115px;
+    color: black!important;
+}
+.carousel-control-next
+{
+    position: absolute;
+    top: 48%;
+    right: 25%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 600%);
+
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: -150px;
+    color: black!important;
+
+}
+.carousel-inner
+{
+    border-radius: 15px 25px 15px 25px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 25%);
+    width: 60%;
+    height: 350px;
+    
+}
+.carousel-inner img{
+        object-fit: fill;
+}
+.services-head
+{
+    padding-top: 20px;
+    height: 130px;
+    background-color: #015571;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.triangle_down {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26.6px 20px 0 20px;
+    border-color: #015571 transparent transparent transparent;
+    margin-left:48% ;
+  }
+  .services
+  {
+      text-align: center;
+      color: #015571;
+      background-color: #ffffff;
+      height: 750px;
+  }
+
+  .cards {
+    
+    display: grid;
+    position:  absolute;
+    top: 175%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  
+    .card {
+    
+        box-shadow: 5px 10px 8px #e3e6e4;
+        border-radius: 30px 30px 30px 30px;
+        width: 300px;
+        height: 250px;
+        float: left;
+        perspective: 500px;
+    }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    line-height: 150px;
+    color: #03446A;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    border-radius: 30px 30px 30px 30px;
+  }
+  
+  .back {
+   
+    background: #03446A;
+    color: white;
+    transform: rotateY( 180deg );
+  }
+
+  .front > img{
+    height: 60px;
+  }
+
+  /* Client Section start */
+
+.client{
+  height: 250px;
+  background-color: #03446A;
+  margin-top: 0%;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+  .brand-carousel {
+    position: absolute;
+  background: #03446A;
+  height: 100px;
+  margin-top: 10px;
+  width: 50%;
+  transform: translate(48%, 0%);
+  }
+  .brand-carousel img{
+    height: 100px;
+    width: 100px;
+  }
+  .owl-dots {
+  text-align: center;
+  margin-top: 2%;
+  }
+  .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+  }
+  .owl-dot.active {
+  background-color: #000 !important;
+  }
+  .single-logo{
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 10px;
+
+  }
+
+
+.lets-work
+{
+  height: 440px;
+}
+.lets-work img
+{
+  padding-top: 20px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lets-work p{
+  padding-top: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #a2a3a7;
+}
+
+.contact-us
+{
+  background-color: #edf8fe;
+  height: 700px;
+  position: absolute;
+   width: 100%;
+  
+}
+
+#parant
+{
+  position: relative;;
+}
+#parant > img{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 80px;
+  top: 340px;
+  
+}
+
+.form{
+  text-align: left;
+  padding-left: 120px;
+  
+  padding-top: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+input[type=text],input[type=email],textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  
+}
+textarea
+{
+  position: absolute;
+  width: 75%;
+  z-index: 1;
+}
+input[type=submit]
+{
+  margin-top: 300px;
+  width: 150px;
+  height: 50px;
+  float: left;
+  margin-left: 68%;
+  border-radius: 20px;
+  background-color: #03446A;
+  color: #ffffff;
+  font-size: 28px;
+}
+.contact-us h3{
+  line-height: 50px;
+margin-top: 40px;
+margin-left: 120px;
+color: #ffffff;
+text-align: center;
+  border-radius: 30px;
+  background-color: #03446A;
+  width: 200px;
+}
+
+.social
+{
+  position: relative;
+  top: 710px;
+  text-align: center;
+  line-height: 120px;
+}
+.social img{
+  height: 80px;
+  width:80px ;
+  padding: 20px;
+}
+
+.rights
+{
+  height: 70px;
+  line-height: 70px;
+background-color:#03446A ;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/* Tv or larger screen */  
+/* Laptop screen */
+ 
+@media only screen and (min-width: 1021px) {
+  .cards { grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px;}
+} 
+
+
+/* Tablete Smart phone screen */
+
+@media only screen and (max-width: 1020px) 
+ {
+  .cards { grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+  top: 195%;
+}
+  .services
+  {
+    height: 950px;
+  }
+  #parant > img{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    right: 10px;
+    top: 300px;
+    
+  }
+  .lets-work
+{
+  height: 480px;
+}
+.lets-work p
+{
+font-size: 18px;
+}
+
+.contact-us h3{
+  position: relative;
+  z-index: 1;
+  margin-left: 120px;
+}
+input[type=submit]{
+  margin-left: 65%;
+}
+}
+
+/* Mobile screen */
+
+
+@media only screen and (max-width: 799px) 
+ {
+  .cards { grid-template-columns: repeat(1, 1fr); 
+    grid-gap: 10px;
+    top: 265%;
+  }
+    .services
+    {
+      height: 1780px;
+    }
+    #parant > img{
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      right: 10px;
+      top: 285px;
+      
+    }
+    .lets-work
+  {
+    height: 350px;
+  }
+  .lets-work img
+{
+  padding-top: 20px;
+  height: 200px;
+  width:100% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading{
+  height: 20px;
+}
+  .contact-us h3{
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-left: 120px;
+  }
+  
+  input[type=submit]{
+    margin-left: 64%;
+  }
+   
+ }
+ @media only screen and (max-width: 600px) 
+ {
+  .cards { grid-template-columns: repeat(1, 1fr); 
+    grid-gap: 10px;
+    top: 265%;
+  }
+    .services
+    {
+      height: 1750px;
+    }
+    #parant > img{
+      display: none;
+    }
+    .lets-work
+  {
+    height: 350px;
+  }
+  .lets-work img
+  {
+    padding-top: 20px;
+    height: 200px;
+    width:100% ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-us h3{
+    position: relative;
+    z-index: 1;
+    left: auto;
+    right: auto;
+  }
+  
+  
+input[type=text],input[type=email] {
+  width: 90%;
+}
+input[type=submit]{
+  width: 88%;
+  margin-left: 0%;
+}
+textarea
+{
+  width: 71%;
+}
+   
+ }
